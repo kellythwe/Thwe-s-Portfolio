@@ -1,0 +1,72 @@
+/* Style Sheet for thwe.index.html */
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+/* RESET STYLESHEET */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.thwe { 
+    position: relative;
+    bottom: 20px;
+    width: 30%;
+}
+ .pow {
+    width: 80%;
+    position: relative;
+    left: 8%;
+    top: 80px;
+    opacity: 70%;
+ } 
+header {
+    background-color: rgba(192, 153, 199, 80%);
+    height: 80px;
+}
+
+nav {
+    font-size: 2rem;
+    color:rgb(154, 40, 137);
+    position: relative;
+    left: 90%;
+    bottom: 140%;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 3%;
+}
+
+p {
+    color:rgb(154, 40, 137);
+    font-size: 15px;
+    position: relative;
+    bottom: 170%;
+    left: 140px;
+    font-family: 'Abril Fatface', serif;
+}
+
+main {
+    background-color: rgba(244, 155, 222, 50%);
+    height: 450px;
+}
+
+button {
+    background-color: rgb(245, 161, 159);
+    padding: .6%;
+    position: relative;
+    left: 40%;
+    bottom: 120px;
+    color: rgb(154, 40, 137);
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Abril Fatface', serif;
+}
+.contact {
+    position: relative;
+    bottom: 70px;
+    left: 24%;
+}
