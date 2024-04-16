@@ -1,6 +1,7 @@
 /* Style Sheet for thwe.index.html */
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
 
 /* RESET STYLESHEET */
 * {
@@ -26,9 +27,9 @@
 h1 {
     color:rgb(154, 40, 137);
     position: absolute;
-    left: 42%;
+    left: 40%;
     top: 550px;
-    font-size: 20px;
+    font-size: 25px;
  }
  .type {
     width: 30%;
@@ -101,7 +102,7 @@ li {
     width: 100%;
     margin: 0 auto;
     padding: 3%;
-}
+} 
 
 p {
     color:rgb(154, 40, 137);
@@ -114,7 +115,7 @@ p {
 
 main {
     background-color: rgba(244, 155, 222, 50%);
-    height: 2000px;
+    height: 1930px;
 }
 
 #hamburger {
@@ -145,7 +146,6 @@ ul li a {
     color:rgb(154, 40, 137);
     text-decoration: none;
     font-size: 1.3rem;
-    font-weight: bold;
     position: relative;
     right: 80%;
 }
@@ -165,6 +165,124 @@ button {
     position: relative;
     bottom: 30px;
     left: 22%;
+}
+
+h2 {
+    position: absolute;
+    top: 230%;
+    left: 40%;
+    color:rgb(154, 40, 137);
+    font-size: 25px;
+}
+
+.ab{
+    position: absolute;
+    top: 237%;
+    left: 5%;
+    color:rgb(154, 40, 137);
+    font-family: 'Abhaya Libre', serif;
+    font-size: 15px;
+}
+
+.bg {
+    opacity: 25%;
+    position: absolute;
+    right: -3%;
+    top: 1280px;
+    width: 115%;
+    height: 130%;
+    background-size: auto;
+}
+
+h3 {
+    position: absolute;
+    top: 264%;
+    left: 40%;
+    color:rgb(154, 40, 137);
+    font-size: 25px;
+}
+
+.mail {
+    position: absolute;
+    top: 272%;
+    left: 28%;
+    color:rgb(154, 40, 137);
+    font-size: 15px;
+}
+
+.phone {
+    position: absolute;
+    top: 276%;
+    left: 30%;
+    color:rgb(154, 40, 137);
+    font-size: 15px;
+}
+
+.web {
+    position: absolute;
+    top: 280%;
+    left: 24%;
+    color:rgb(154, 40, 137);
+    font-size: 15px;
+}
+
+.let {
+    position: absolute;
+    top: 298%;
+    left: 37%;
+    color:rgb(154, 40, 137);
+    font-size: 15px;
+}
+
+.btn {
+    position:relative;
+    top: 130px;
+    font-family: 'Abril Fatface', serif;
+    background-color: rgb(154, 40, 137);
+    border-radius: 10%;
+    color: rgb(212, 150, 245);
+    left: 117px;
+    width: 20%;
+    height: 10%;
+}
+
+input {
+    background-color:  rgba(255, 255, 255, 0%);
+    border-width: 0;
+    border-bottom: 1px solid rgb(154, 40, 137);
+    color: rgb(154, 40, 137);
+    position:relative;
+    top: 70px;
+    left: 52px;
+    font-size: 12px;
+    width: 65%;
+    padding: 4%;
+    font-family: 'Abhaya Libre', serif;
+}
+
+.forms-main {
+    background-color: rgba(212, 150, 245, 50%);
+    border-radius: 5%;
+    font-family: 'Abril Fatface', serif;
+    width: 60%;
+    height: 300px;
+    position: relative;
+    bottom: 365px;
+    left: 95px;
+}
+
+i {
+    position: absolute;
+    right:48%;
+    top: 286%;
+    color:rgb(154, 40, 137);
+    font-size: 1.7rem;
+}
+
+footer {
+    position: absolute;
+    top: 353%;
+    left: 5%;
 }
 
 @media screen and (min-width: 720px) {
@@ -249,9 +367,20 @@ button {
         top: 265%;
         left: 55%;
     }
+
+    /*.bg {
+        opacity: 1%;
+        position: absolute;
+        left: 0;
+        bottom: 100%;
+        width: 50%;
+        height: 50%;
+        background-size: 50%;
+    } */
+
      main {
         background-color: rgba(244, 155, 222, 50%);
-        height: 3000px;
+        height: 3200px;
     }
     button {
         background-color: rgb(245, 161, 159);
@@ -287,6 +416,124 @@ button {
         float: left;
         list-style-type: none;
         padding: 2.5%;
+    }
+    h2 {
+        position: absolute;
+        top: 335%;
+        left: 44%;
+        color:rgb(154, 40, 137);
+        font-size: 40px;
+    }
+    
+    .ab{
+        position: absolute;
+        top: 350%;
+        left: 1%;
+        color:rgb(154, 40, 137);
+        font-family: 'Abhaya Libre', serif;
+        font-size: 20px;
+    }
+    
+    .bg {
+        opacity: 25%;
+        position: absolute;
+        right: -3%;
+        top: 1890px;
+        width: 100%;
+        height: 250%;
+        background-size: auto;
+    }
+    
+    h3 {
+        position: absolute;
+        top: 380%;
+        left: 45%;
+        color:rgb(154, 40, 137);
+        font-size: 40px;
+    }
+    
+    .mail {
+        position: absolute;
+        top: 395%;
+        left: 40%;
+        color:rgb(154, 40, 137);
+        font-size: 20px;
+    }
+    
+    .phone {
+        position: absolute;
+        top: 402%;
+        left: 41%;
+        color:rgb(154, 40, 137);
+        font-size: 20px;
+    }
+    
+    .web {
+        position: absolute;
+        top: 410%;
+        left: 38%;
+        color:rgb(154, 40, 137);
+        font-size: 20px;
+    }
+    
+    .let {
+        position: absolute;
+        top: 450%;
+        left: 37%;
+        color:rgb(154, 40, 137);
+        font-size: 40px;
+    }
+    
+    .btn {
+        position:relative;
+        top: 200px;
+        font-family: 'Abril Fatface', serif;
+        font-size: 20px;
+        background-color: rgb(154, 40, 137);
+        border-radius: 10%;
+        color: rgb(212, 150, 245);
+        left: 300px;
+        width: 20%;
+        height: 14%;
+    }
+    
+    input {
+        background-color:  rgba(255, 255, 255, 0%);
+        border-width: 0;
+        border-bottom: 1px solid rgb(154, 40, 137);
+        color: rgb(154, 40, 137);
+        position:relative;
+        top: 140px;
+        left: 110px;
+        font-size: 20px;
+        width: 70%;
+        padding: 4%;
+        font-family: 'Abhaya Libre', serif;
+    }
+    
+    .forms-main {
+        background-color: rgba(212, 150, 245, 50%);
+        border-radius: 5%;
+        font-family: 'Abril Fatface', serif;
+        width: 60%;
+        height: 600px;
+        position: relative;
+        bottom: 800px;
+        left: 250px;
+    }
+    
+    i {
+        position: absolute;
+        right:48%;
+        top: 422%;
+        color:rgb(154, 40, 137);
+        font-size: 3rem;
+    }
+    
+    footer {
+        position: absolute;
+        top: 570%;
+        left: 10%;
     }
     
 }
