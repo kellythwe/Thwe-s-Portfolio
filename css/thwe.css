@@ -310,6 +310,23 @@ footer {
         position: absolute;
         left: 50%;
     }
+    i {
+        position: absolute;
+        right:48%;
+        top: 422%;
+        color:rgb(154, 40, 137);
+        font-size: 3rem;
+    }
+    .fa-arrow-right {
+        position: absolute;
+        top: 70%;
+        left: 1030px;
+    }
+    .fa-arrow-left {
+        position: absolute;
+        top: 70%;
+        left: 190px;
+    }
     .pow {
         width: 80%;
         height: 500px;
