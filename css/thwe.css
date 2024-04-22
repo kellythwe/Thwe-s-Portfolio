@@ -423,6 +423,7 @@ footer {
         position: relative;
         left: 55%;
         top: 12px;
+        display: block;
     }
     
     ul li a {
