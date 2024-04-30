@@ -469,15 +469,15 @@ nav {
     }
     h2 {
         position: relative;
-        bottom: 1400px;
+        bottom: 3220px;
         left: 44%;
         color:rgb(154, 40, 137);
         font-size: 40px;
     }
     
     .ab{
-        position: absolute;
-        top: 350%;
+        position: relative;
+        bottom: 4580px;
         left: 1%;
         color:rgb(154, 40, 137);
         font-family: 'Abhaya Libre', serif;
@@ -486,49 +486,47 @@ nav {
     
     .bg {
         opacity: 25%;
-        position: absolute;
-        right: 1%;
-        top: 1890px;
+        position: relative;
+        bottom: 3300px;
         width: 100%;
-        height: 250%;
-        background-size: auto;
+        height: 1390px;
     }
     
     h3 {
-        position: absolute;
-        top: 380%;
+        position: relative;
+        bottom: 4545px;
         left: 45%;
         color:rgb(154, 40, 137);
         font-size: 40px;
     }
     
     .mail {
-        position: absolute;
-        top: 395%;
+        position: relative;
+        bottom: 4520px;
         left: 40%;
         color:rgb(154, 40, 137);
         font-size: 20px;
     }
     
     .phone {
-        position: absolute;
-        top: 402%;
+        position: relative;
+        bottom: 4510px;
         left: 41%;
         color:rgb(154, 40, 137);
         font-size: 20px;
     }
     
     .web {
-        position: absolute;
-        top: 410%;
+        position: relative;
+        bottom: 4500px;
         left: 38%;
         color:rgb(154, 40, 137);
         font-size: 20px;
     }
     
     .let {
-        position: absolute;
-        top: 450%;
+        position: relative;
+        bottom: 4200px;
         left: 37%;
         color:rgb(154, 40, 137);
         font-size: 40px;
@@ -568,27 +566,32 @@ nav {
         width: 60%;
         height: 600px;
         position: relative;
-        bottom: 800px;
+        bottom: 4300px;
         left: 250px;
     }
     
-    i {
+    /*i {
         position: absolute;
         right:48%;
         top: 422%;
         color:rgb(154, 40, 137);
         font-size: 3rem;
-    }
-    
+    }*/
     footer {
         background-color: rgba(192, 153, 199, 80%);
-        height: 40px;
+        height: 35px;
         font-family: 'Abril Fatface', serif;
-        font-size: 20px;
+        font-size: 12px;
         text-align: center;
         color: rgb(154, 40, 137);
         position: relative;
-        bottom: 600px;
+        bottom: 4170px;
+    }
+    .foot {
+        position: relative;
+        color: rgb(154, 40, 137);
+        bottom: -8px;
+        left: 10px;
     }
     
 }
