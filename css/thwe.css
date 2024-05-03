@@ -26,8 +26,8 @@
 
 h1 {
     color:rgb(154, 40, 137);
-    position: relative;
-    bottom: 1450px;
+    position: absolute;
+    top: 98%;
     left: 40%;
     font-size: 25px;
  }
@@ -85,21 +85,20 @@ header {
 
 li {
     position: relative;
-    left: 85%;
 }
 
-#wrapper {
+/*#wrapper {
     width: 100%;
     margin: 0 auto;
     padding: 3%;
-} 
+} */
 
 .gallery {
     color:rgb(154, 40, 137);
     font-size: 13px;
-    position: relative;
-    bottom: 110%;
-    left: 145px;
+    position: absolute;
+    top: 9%;
+    left: 30%;
     font-family: 'Abril Fatface', serif;
 }
 
@@ -111,8 +110,8 @@ label {
     font-size: 2rem;
     color:rgb(154, 40, 137);
     position: relative;
-    left: 90%;
-    bottom: 160%;
+    left: 55%;
+    bottom: 95%;
     cursor: pointer;
 }
 
@@ -130,8 +129,8 @@ nav {
     height: 150%;
     width: 20%;
     position: relative;
-    left: 386px;
-    bottom: 119px;
+    left: 79.7%;
+    bottom: 77%;
     display: none;
 }
 
@@ -145,7 +144,7 @@ ul li a {
     text-decoration: none;
     font-size: 1.2rem;
     position: relative;
-    right: 80%;
+    left: 15%;
 }
 button {
     background-color: rgb(245, 161, 159);
@@ -267,7 +266,7 @@ input {
     bottom: 2350px;
     left: 95px;
 }
-.fa-arrow-right {
+/*.fa-arrow-right {
     color: rgb(154, 40, 137);
     position: relative;
     top: 14%;
@@ -280,7 +279,7 @@ input {
     top: 14%;
     right: 10%;
     font-size: 1.5rem;
-}
+}*/
 .fa-instagram {
     position: relative;
     left:48%;
@@ -321,18 +320,43 @@ header {
 .gallery {
         color:rgb(154, 40, 137);
         font-size: 20px;
-        position: relative;
-        bottom: 175%;
-        left: 370px;
+        position: absolute;
+        top: 11%;
+        left: 29%;
         font-family: 'Abril Fatface', serif;
     }
-
+    label {
+        display: none;
+    }
+    nav {
+            font-family: 'Abril Fatface', serif;
+            color:rgb(154, 40, 137);
+            width: 50%;
+            position: relative;
+            left: 50%;
+            bottom: 190%;
+            display: block;
+            outline: 1px solid red;
+        }
+        
+        ul li a {
+            color:rgb(154, 40, 137);
+            text-decoration: none;
+            font-size: 1.3rem;
+            position: relative;
+            float: left;
+            list-style-type: none;
+            padding: 3%;
+        }
+        #hamburger {
+            display: none;
+        }
     .art {
         position: absolute;
         left: 50%;
     }
     
-    .fa-arrow-right {
+    /*.fa-arrow-right {
         color: rgb(154, 40, 137);
         position: relative;
         top: 9%;
@@ -345,7 +369,7 @@ header {
         top: 9%;
         left: 7%;
         font-size: 1.7rem;
-    }
+    }*/
     .fa-instagram {
         position: relative;
         left:50%;
@@ -364,9 +388,9 @@ header {
  
      h1 {
         color:rgb(154, 40, 137);
-        position: relative;
+        position: absolute;
         left: 44%;
-        bottom: 2500px;
+        top: 138%;
         font-size: 40px;
      }
     .type {
@@ -442,31 +466,7 @@ header {
         bottom: 450px;
         left: 33.5%;
     }
-label {
-    display: none;
-}
-nav {
-        font-family: 'Abril Fatface', serif;
-        color:rgb(154, 40, 137);
-        width: 50%;
-        position: relative;
-        left: 55%;
-        bottom: 210%;
-        display: block;
-    }
-    
-    ul li a {
-        color:rgb(154, 40, 137);
-        text-decoration: none;
-        font-size: 1.3rem;
-        position: relative;
-        float: left;
-        list-style-type: none;
-        padding: 2.5%;
-    }
-    #hamburger {
-        display: none;
-    }
+
     h2 {
         position: relative;
         bottom: 3220px;
