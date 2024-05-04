@@ -161,12 +161,12 @@ button {
 .contact {
     position: relative;
     bottom: 80px;
-    left: 21%;
+    left: 22.5%;
 }
 
 h2 {
-    position: relative;
-    bottom: 1790px;
+    position: absolute;
+    top: 222%;
     left: 40%;
     color:rgb(154, 40, 137);
     font-size: 25px;
@@ -175,10 +175,11 @@ h2 {
 .ab{
     position: relative;
     bottom: 2460px;
-    left: 1%;
     color:rgb(154, 40, 137);
     font-family: 'Abhaya Libre', serif;
     font-size: 15px;
+    padding: 1.5%;
+    text-align: center;
 }
 
 .bg {
@@ -336,7 +337,6 @@ header {
             left: 50%;
             bottom: 190%;
             display: block;
-            outline: 1px solid red;
         }
         
         ul li a {
@@ -464,12 +464,12 @@ header {
     .contact {
         position: relative;
         bottom: 450px;
-        left: 33.5%;
+        left: 33.8%;
     }
 
     h2 {
-        position: relative;
-        bottom: 3220px;
+        position: absolute;
+        top: 330%;
         left: 44%;
         color:rgb(154, 40, 137);
         font-size: 40px;
@@ -478,10 +478,11 @@ header {
     .ab{
         position: relative;
         bottom: 4580px;
-        left: 1%;
         color:rgb(154, 40, 137);
         font-family: 'Abhaya Libre', serif;
         font-size: 20px;
+        padding: 1.5%;
+        text-align: center;
     }
     
     .bg {
