@@ -392,6 +392,60 @@ footer {
     bottom: -8px;
     left: 10px;
 }
+
+/* GoodGirl */
+.redesignmain {
+    height: 700px;
+}
+.redesign {
+    color: rgb(154, 40, 137);
+    font-family: 'Abril Fatface', serif;
+    font-size: 20px;
+    position: absolute;
+    top: 22%;
+    left: 25%;
+}
+.redesignimgs {
+        width: 210px;
+        position: relative;
+        top: 300px;
+        left: 250px;
+}
+.ggimgs {
+    width: 210px;
+    position: relative;
+    bottom: 150px;
+    left: 25px;
+}
+.redesignpara {
+    color: rgb(154, 40, 137);
+    padding: 4%;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    top: 14%;
+}
+.redesignfooter {
+    background-color: rgba(192, 153, 199, 80%);
+    height: 30px;
+    font-family: 'Abril Fatface', serif;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(154, 40, 137);
+    position: relative;
+    bottom: 1px;
+    
+}
+.redesignfoot {
+    position: absolute;
+    top: 30%;
+    right: 7%;
+    color: rgb(154, 40, 137);
+    top: 5px;
+    left: 10px;
+}
+
 @media screen and (min-width: 720px) {
 
 .thwe { 
@@ -763,6 +817,58 @@ header {
     right: 2%;
     color: rgb(154, 40, 137);
     bottom: -8px;
+    left: 10px;
+}
+
+/* GoodGirl */
+.redesignmain {
+    height: 700px;
+}
+.redesign {
+    color: rgb(154, 40, 137);
+    font-family: 'Abril Fatface', serif;
+    font-size: 30px;
+    position: absolute;
+    top: 45%;
+    left: 54%;
+}
+.redesignimgs {
+        width: 300px;
+        position: relative;
+        top: 270px;
+        left: 290px;
+}
+.ggimgs {
+        width: 300px;
+        position: relative;
+        bottom: 300px;
+        left: 250px;
+}
+.redesignpara {
+    color: rgb(154, 40, 137);
+    padding: 4%;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 20px;
+    position: relative;
+    left: 10%;
+    text-align: center;
+    top: -250px;
+    width: 40%;
+}
+.redesignfooter {
+    background-color: rgba(192, 153, 199, 80%);
+    height: 30px;
+    font-family: 'Abril Fatface', serif;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(154, 40, 137);
+    position: relative;
+}
+.redesignfoot {
+    position: absolute;
+    top: 30%;
+    right: 7%;
+    color: rgb(154, 40, 137);
     left: 10px;
 }
 
