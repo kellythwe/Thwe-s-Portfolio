@@ -141,6 +141,10 @@ ul li a {
     position: relative;
     left: 15%;
 }
+nav ul li a:hover {
+    color: rgb(192, 153, 199);
+}
+
 button {
     background-color: rgb(245, 161, 159);
     padding: .6%;
@@ -262,20 +266,7 @@ input {
     bottom: 2220px;
     left: 95px;
 }
-/*.fa-arrow-right {
-    color: rgb(154, 40, 137);
-    position: relative;
-    top: 14%;
-    left: 86%;
-    font-size: 1.5rem;
-}
-.fa-arrow-left {
-    color: rgb(154, 40, 137);
-    position: relative;
-    top: 14%;
-    right: 10%;
-    font-size: 1.5rem;
-}*/
+
 .fa-instagram {
     position: relative;
     left:48%;
@@ -296,6 +287,106 @@ footer {
     
 }
 .foot {
+    position: absolute;
+    top: 30%;
+    right: 7%;
+    color: rgb(154, 40, 137);
+    bottom: -8px;
+    left: 10px;
+}
+
+/* Typeface */
+.modishmain {
+    height: 1000px;
+}
+.typeface {
+    color: rgb(154, 40, 137);
+    font-family: 'Abril Fatface', serif;
+    font-size: 30px;
+    position: absolute;
+    top: 19%;
+    left: 40%;
+}
+.typefaceimgs {
+        width: 250px;
+        position: relative;
+        top: 120px;
+        left: 115px;
+}
+.modish {
+    width: 250px;
+    position: relative;
+    top: 150px;
+    left: 115px;
+}
+.typefacepara {
+    color: rgb(154, 40, 137);
+    padding: 4%;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 22px;
+    position: relative;
+    text-align: center;
+    top: 17%;
+}
+.typefooter {
+    background-color: rgba(192, 153, 199, 80%);
+    height: 30px;
+    font-family: 'Abril Fatface', serif;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(154, 40, 137);
+    position: relative;
+    bottom: 1px;
+    
+}
+.typefoot {
+    position: absolute;
+    top: 30%;
+    right: 7%;
+    color: rgb(154, 40, 137);
+    bottom: -8px;
+    left: 10px;
+}
+
+/* Monster */
+.monstermain {
+    height: 500px;
+}
+.monsterh {
+    color: rgb(154, 40, 137);
+    font-family: 'Abril Fatface', serif;
+    font-size: 30px;
+    position: absolute;
+    top: 19%;
+    left: 40%;
+}
+.monsterimgs {
+        width: 250px;
+        position: relative;
+        top: 110px;
+        left: 115px;
+}
+.monsterpara {
+    color: rgb(154, 40, 137);
+    padding: 4%;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    top: 25%;
+}
+.monstafooter {
+    background-color: rgba(192, 153, 199, 80%);
+    height: 30px;
+    font-family: 'Abril Fatface', serif;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(154, 40, 137);
+    position: relative;
+    bottom: 1px;
+    
+}
+.monstafoot {
     position: absolute;
     top: 30%;
     right: 7%;
@@ -345,6 +436,12 @@ header {
             float: left;
             list-style-type: none;
             padding: 3%;
+        }
+        nav ul li a:hover {
+            color: rgb(192, 153, 199);
+        }
+        .active-page {
+            color: rgb(192, 50, 220);
         }
         #hamburger {
             display: none;
@@ -567,5 +664,108 @@ header {
         top: 35%;
         left: 30px;
     }
+/* Typeface */
+
+.modishmain {
+    height: 1000px;
+}
+
+.typeface {
+    color: rgb(154, 40, 137);
+    font-family: 'Abril Fatface', serif;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 64%;
+}
+.typefaceimgs {
+        width: 400px;
+        position: relative;
+        top: 90px;
+        left: -20%;
+}
+.modish {
+    width: 350px;
+    position: relative;
+    top: -100px;
+    left: 720px;
+}
+.typefacepara {
+    color: rgb(154, 40, 137);
+    padding: 4%;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+    top: -350px;
+    left: 200px;
+    width: 30%;
+}
+.typefooter {
+    background-color: rgba(192, 153, 199, 80%);
+    height: 40px;
+    font-family: 'Abril Fatface', serif;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(154, 40, 137);
+    position: relative;
+    bottom: 1px;
     
+}
+.typefoot {
+    position: absolute;
+    top: 30%;
+    right: 7%;
+    color: rgb(154, 40, 137);
+    bottom: -8px;
+    left: 10px;
+}
+    
+/* Monster */
+.monstermain {
+    height: 700px;
+}
+.monsterh {
+    color: rgb(154, 40, 137);
+    font-family: 'Abril Fatface', serif;
+    font-size: 40px;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+}
+.monsterimgs {
+        width: 400px;
+        position: relative;
+        top: 130px;
+        left: 10px;
+}
+.monsterpara {
+    color: rgb(154, 40, 137);
+    padding: 4%;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 22px;
+    position: relative;
+    text-align: center;
+    top: 20%;
+}
+.monstafooter {
+    background-color: rgba(192, 153, 199, 80%);
+    height: 30px;
+    font-family: 'Abril Fatface', serif;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(154, 40, 137);
+    position: relative;
+    bottom: 1px;
+    
+}
+.monstafoot {
+    position: absolute;
+    top: 30%;
+    right: 2%;
+    color: rgb(154, 40, 137);
+    bottom: -8px;
+    left: 10px;
+}
+
 }
